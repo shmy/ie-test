@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>After confirmed</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style>
+      html, body {
+          margin: 0;
+          padding: 0;
+          font-family: Roboto, serif;
+          color: rgba(0, 0, 0, 0.87);
+          font-size: 16px;
+          font-weight: 400;
+      }
+
+      .container {
+          background-color: #FAFAFA;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          overflow: hidden;
+					max-width: 648px;
+					margin: 0 auto;
+      }
+
+      .header {
+          height: 58px;
+          line-height: 58px;
+          background-color: #E87511;
+          text-align: center;
+      }
+
+      .content {
+          padding: 0 24px;
+      }
+
+      .footer {
+          padding: 0 16px;
+          max-width: 648px;
+          margin: 0 auto;
+      }
+
+      .logo {
+          vertical-align: middle;
+          width: 162px;
+          height: 40px;
+      }
+
+      h1, h2, h3 {
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.87) !important;
+      }
+
+      h1 {
+          margin: 24px 0;
+          font-size: 24px;
+      }
+
+      h2 {
+          margin: 16px 0;
+          font-size: 20px;
+      }
+
+      h3 {
+          margin: 16px 0;
+          font-size: 16px;
+      }
+
+      p {
+          color: rgba(0, 0, 0, 0.87) !important;
+      }
+
+      .button {
+          color: white !important;
+          text-decoration: none;
+          display: inline-block;
+          background-color: #37474F;
+          padding: 6px 16px;
+          margin: 24px 0;
+          font-weight: 500;
+          border-radius: 4px;
+          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 1px 5px rgba(0, 0, 0, 0.12);
+      }
+			.got-answer {
+					color: rgba(0, 0, 0, 0.6) !important;
+          margin-top: -8px !important;
+			}
+      .answer-email, .answer-email > a {
+          color: #37474F;
+          text-decoration: underline;
+      }
+			.item {
+					padding: 8px 0;
+          color: rgba(0, 0, 0, 0.87) !important;
+      }
+			.item>div {
+					display: inline-block;
+			}
+			.item>.title {
+					width: 205px;
+          line-height: 24px;
+          vertical-align: top;
+			}
+			.item>.value {
+					line-height: 24px;
+      }
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<img class="logo"
+				 src="http://cdn.mcauto-images-production.sendgrid.net/8f493d86204e1cec/a50f77b4-7a6e-4816-a44e-37468bdb4acd/324x79.png"
+				 alt="logo">
+	</div>
+	<div class="content">
+		<h1>Your item has been confirmed!</h1>
+		<p>Hi, <b>{{name}}</b> here are your transaction summary details:</p>
+		<div class="item">
+			<div class="title">Seller</div>
+			<div class="value">
+				<div>
+					<b>COMPANY NAME</b>
+				</div>
+				<div>dsads</div>
+				<div>dsads</div>
+				<div>dsads</div>
+				<div>dsads</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="title">Event</div>
+			<div class="value">: Auction Event</div>
+		</div>
+		<div class="item">
+			<div class="title">Transaction date</div>
+			<div class="value">: August 15, 2022</div>
+		</div>
+		<div class="item">
+			<div class="title">Settlement statement</div>
+			<div class="value">: August 24, 2022</div>
+		</div>
+		<div class="item">
+			<div class="title">Asset sale price</div>
+			<div class="value">: <b>$32,00,00</b></div>
+		</div>
+		<h3>Payout confirmation: Money transfer ID</h3>
+		<a class="button" href="#">View Transaction</a>
+	</div>
+
+</div>
+<div class="footer">
+	<h2>Questions about your order?</h2>
+	<div class="got-answer">We’ve got answers.</div>
+	<p class="answer-email">asksupport@ritchiebros.com</p>
+</div>
+</body>
+</html>
